@@ -1,0 +1,2 @@
+library(plotly)
+plot_ly(airquality, x = ~ Temp, y = ~ Ozone, type = "scatter", color = ~ factor(Month))
